@@ -1,0 +1,291 @@
+   0 ls
+   1 cd Desktop
+   2 ls
+   3 cd AkshathaP/
+   4 ls
+   5 cd AWS/
+   6 ls
+   7 cat AWS_Storage_Day21.txt
+   8 ls
+   9 cat AWS_Storage_EBS.docx 
+  10 1;22;23;24;28;32;42;52c1;22;23;24;28;32;42;52c1;22;23;24;28;32;42;52c1;22;23;24;28;32;42;52c1;22;23;24;28;32;42;52c1;22;23;24;28;32;42;52c1;22;23;24;28;32;42;52c1;0x1;22;23;24;28;32;42;52c
+  11 clear
+  12 sudo i
+  13 sudo -i
+  14 du -h
+  15 top
+  16 du -h
+  17 du -h --max-depth=1
+  18 whoami
+  19 id
+  20 useradd akshathap
+  21 man useradd
+  22 ls
+  23 man
+  24 sudo apt-get update
+  25 apt-get update && apt-get install -y man-db
+  26 apk update && apk add mandoc man-pages
+  27 man 
+  28 man useradd
+  29 useradd akshatha
+  30 adduser akshatha
+  31 passwd
+  32 whoai
+  33 whoami
+  34 ls
+  35 cd /etc/passwd
+  36 cd /etc
+  37 ls
+  38 cd ..
+  39 cat /etc/passwd
+  40 ls
+  41 ls -lrt
+  42 ls -lrth
+  43 cat /etc/passwd
+  44 su - akshatha
+  45 apk update && apk add bash
+  46 bash
+  47 sudo -u akshatha
+  48 su -akshatha
+  49 su - akshatha
+  50 ls
+  51 cd Desktop/
+  52 ls
+  53 cd AkshathaP/
+  54 mkdir linuxDir
+  55 cd linuxDir/
+  56 echo 'console.log("Hello World");' > app.js
+  57 node app.js
+  58 cat << 'EOF' > HelloWorld.java
+  59 public class HelloWorld {
+  60     public static void main(String[] args) {
+  61         System.out.println("Hello World");
+  62     }
+  63 }
+  64 EOF
+  65 javac HelloWorld.java
+  66 java HelloWorld
+  67 java --version
+  68 python --version
+  69 apk add python3
+  70 python3 --version
+  71 echo 'print("Hello World")' > app.py
+  72 python3 app.py
+  73 apk add openjdk11
+  74 cat << 'EOF' > HelloWorld.java
+  75 public class HelloWorld {
+  76     public static void main(String[] args) {
+  77         System.out.println("Hello World");
+  78     }
+  79 }
+  80 EOF
+  81 javac HelloWorld.java
+  82 java HelloWorld.java
+  83 java HelloWorld
+  84 figlet "Akshatha"
+  85 apk add figlet
+  86 figlet "Akshatha"
+  87 figlet "Akshatha" | lolcat
+  88 glances
+  89 pv
+  90 oneko
+  91 apk add oneko
+  92 factor 2024
+  93 factor 36
+  94 ls logs
+  95 ls /home
+  96 cd /home
+  97 ls
+  98 cd /
+  99 ls -l
+ 100 ls -R
+ 101 find . -type f -name "app.txt"
+ 102 netstat -nutlp
+ 103 tar -cvzf ls
+ 104 ls
+ 105 cd desktop
+ 106 ls
+ 107 cd AkshathaP/
+ 108 ls
+ 109 tar -cvzf Devops/
+ 110 tar -cvzf mydevops.tar.gz Devops/
+ 111 ls
+ 112 ip
+ 113 ifconfig
+ 114 ip
+ 115 man ip
+ 116 man ifconfig
+ 117 man ip
+ 118 man ifconfig
+ 119 ifconfig
+ 120 ip addr
+ 121 ip route
+ 122 ip addr
+ 123 man ip
+ 124 ip eth0
+ 125 ip
+ 126 clear
+ 127 ip
+ 128 ifconfig
+ 129 clear
+ 130 ifconfig
+ 131 ip
+ 132 clear
+ 133 ifconfig
+ 134 clear
+ 135 ip
+ 136 ifconfig
+ 137 ipconfig
+ 138 ifconfig
+ 139 ip
+ 140 ip link set eth0 down
+ 141 ip link show eth0
+ 142 ping -c 3 8.8.8.8
+ 143 ip link set eth0 up
+ 144 ping -c 3 8.8.8.8
+ 145 ip link show eth0
+ 146 ping -c 3 8.8.8.8
+ 147 ip route
+ 148 udhcpc -i eth0
+ 149 ip route add default via 172.19.64.1 dev eth0
+ 150 wsl --shutdown
+ 151 ping -c 3 8.8.8.8
+ 152 ifconfig -a
+ 153 ifconfig eth0
+ 154 ip addr
+ 155 clear
+ 156 ip link set eth0 down
+ 157 ping -c 3 8.8.8.8
+ 158 ip link set eth0 up
+ 159 ping -c 3 8.8.8.8
+ 160 ip route add default via 172.19.64.1 dev eth0
+ 161 ping -c 3 8.8.8.8
+ 162 ip addr
+ 163 ip route
+ 164 ping -c 3 8.8.8.8
+ 165 ethtool eth0
+ 166 cat /etc/os-release
+ 167 hostname -i
+ 168 hostname -I
+ 169 ip addr show eth0 | grep 'inet ' | awk '{print $2}' | cut -d/ -f1
+ 170 docker run -it --rm ubuntu:latest
+ 171 exit
+ 172 # See who owns and manages the github domain
+ 173 whois github.com
+ 174 dig google.com
+ 175 apk update
+ 176 apk add bind-tools
+ 177 apk update
+ 178 dig google.com
+ 179 dig -x 9.9.9.9
+ 180 dig google.com
+ 181 netstat -nutlp
+ 182 # Get a swift summary of docker's web layout
+ 183 host docker.com
+ 184 telnet example.com 80
+ 185 mkdir -p find_practice/logs find_practice/backup
+ 186 touch find_practice/notes.txt find_practice/README.md find_practice/script.sh find_practice/config.json
+ 187 touch find_practice/logs/app.log find_practice/logs/error.log find_practice/backup/old_notes.txt
+ 188 chmod +x find_practice/script.sh
+ 189 truncate -s 15M find_practice/logs/app.log
+ 190 cd find_practice/
+ 191 ls
+ 192 find . -name "notes.txt"
+ 193 find . -name "noTes.txt"
+ 194 find . -iname "noTes.txt"
+ 195 find . -type d
+ 196 find . -type f
+ 197 find . -type f -size +10M
+ 198 find . -type f -size +10MB
+ 199 find . -type f -size +10
+ 200 find . -type f -size +10M
+ 201 find . -type f -size +10240k
+ 202 find . -type -f empty
+ 203 find . -type f empty
+ 204 find . -type f -empty
+ 205 find . -type f -perm/111
+ 206 find . -type f -perm /111
+ 207 find . -type f -size +10240k
+ 208 clear
+ 209 find . -type f -size +10240k
+ 210 find . -type f -empty
+ 211 find . -type f -perm /111
+ 212 find . -type f -perm 644
+ 213 find . -type f -perm /644
+ 214 find . -type f -time -1
+ 215 find . -type f -mtime -1
+ 216 find . -type f -mtime +7
+ 217 find . -type f -mmin -30
+ 218 find . -type f -name "*.txt" -exec ls -l {} \;
+ 219 find . -type f -exec grep "error" {} \;
+ 220 find . -type f -name "*.sh" -exec chmod +x {} \;
+ 221 ls
+ 222 find . -type f -name "*.txt" -exec chmod +x {} \;
+ 223 ls
+ 224 find . -type f -name "*.sh" -exec chmod -x {} \;
+ 225 ls
+ 226 find . -type f -name "*.txt" -exec chmod -x {} \;
+ 227 find . -type f -name "*.sh" -exec chmod +x {} \;
+ 228 ls
+ 229 cat notes.txt 
+ 230 cat >> notes.txt 
+ 231 cat notes.txt 
+ 232 find . -type f -exec grep "notes" {} \;
+ 233 cat notes.txt find . -name "*.log" -size +10040K -exec ls -l
+ 234 cat notes.txt find . -name "*.log" -size +10040K -exec ls -l \;
+ 235 cat notes.txt find . -name "*.log" -size +10040K -exec ls -l {} \;
+ 236 find . -type f -name "*.log" -size +1024k -exec ls -l {} \;
+ 237 clear
+ 238 find . -type f -name "*.txt" -exec ls -l {} \;
+ 239 : find . -type f -exec grep "notes" {} \;
+ 240 find . -type f -name "*.sh" -exec chmod +x {} \;
+ 241 ls
+ 242 find . -type f -name "*.txt" -exec chmod +x {} \;
+ 243 ls
+ 244 find . -type f -name "*.txt" -exec chmod -x {} \;
+ 245 ls
+ 246 find . -type f -name "*.log" -size +1024k -exec ls -l {} \;
+ 247 echo "# jhc-devops-calculator" >> README.md
+ 248 git init
+ 249 git add README.md
+ 250 git commit -m "first commit"
+ 251 git branch -M main
+ 252 git remote add origin https://github.com/akshathap21/jhc-devops-calculator.git
+ 253 git push -u origin main
+ 254 git --version
+ 255 sudo apk update
+ 256 apk update
+ 257 apk install git -y
+ 258 apk install -y git
+ 259 apk add git
+ 260 git --version
+ 261 echo "# jhc-devops-calculator" >> README.md
+ 262 git init
+ 263 git add README.md
+ 264 git commit -m "first commit"
+ 265 git branch -M main
+ 266 git remote add origin https://github.com/akshathap21/jhc-devops-calculator.git
+ 267 git push -u origin main
+ 268 git config --global user.name akshathap21
+ 269 git config --global user.name "akshathap21"
+ 270 git config --global user.email "akshathap21@gmail.com"
+ 271 mkdir calculator
+ 272 cd calculator
+ 273 echo "# jhc-calculator-devops" >> README.md
+ 274 git init
+ 275 git add README.md
+ 276 git commit -m "first commit"
+ 277 git branch -M main
+ 278 git remote add origin https://github.com/akshathap21/jhc-calculator-devops.git
+ 279 git push -u origin main
+ 280 # 1. Create the files
+ 281 echo "def add(a, b): return a + b" > add.py
+ 282 echo "def sub(a, b): return a - b" > sub.py
+ 283 echo "def mult(a, b): return a * b" > mult.py
+ 284 # 2. Stage and commit them
+ 285 git add add.py sub.py mult.py
+ 286 git commit -m "feat: add add, sub, and mult calculator files"
+ 287 # 3. Push them to GitHub (it won't ask for a password this time)
+ 288 git push
+ 289 history
+ 290 history | cat > historyDay1Commits
