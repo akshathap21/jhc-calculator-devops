@@ -1,0 +1,46 @@
+ git status
+  109  ls
+  110  cd calculator/
+  111  ls
+  112  git branch
+  113  git checkout additionakshathap
+  114  git branch
+  115  git branch -v
+  116  git branch -a
+  117  git branch -r
+  118  echo "This is addition file from akshathap branch" > addition.py
+  119  ls
+  120  git status
+  121  git add .
+  122  git commit -m "File from akshathap branch"
+  123  git push
+  124  git status
+  125  ls
+  126  cat addition.py
+  127  git checkout main
+  128  echo "This is addition from main branch" > additionMain.py
+  129  ls
+  130  git add .
+  131  git commit -m "addin a file from main branch"
+  132  git push
+  133  git push
+  134  git push
+  135  git checkout additionakshathap
+  136  git status
+  137  git commit -m "addin a file from akshathap branch"
+  138  git push
+  139  ls
+  140  vi sub.py
+  141  git status
+  142  git add sub.py
+  143  git commit -m "updated substraction"
+  144  git push
+  145  git checkout substractionpradeep
+  146  ls
+  147  git pull
+  148  vi sub.py
+  149  git add sub.py
+  150  git commit -m "substraction file updted"
+  151  git push
+  152  git history
+  153  history
