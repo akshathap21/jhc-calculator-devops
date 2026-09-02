@@ -1,3 +1,3 @@
-a=10 
-b=5
+a=20
+b=10
 def sub(a, b): return a - b
